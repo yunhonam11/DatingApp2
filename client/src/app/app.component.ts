@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'The Dating App';
   users: any;
 
-  constructor(private http: HttpClient, private accountService: AccountService) {}
+  constructor(private accountService: AccountService) {}
   
   ngOnInit() {
     this.setCurrentUser();
